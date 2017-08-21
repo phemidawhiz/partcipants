@@ -42,7 +42,7 @@ body{
     max-height: 120px;
     margin: 10px;
     margin-bottom: 0px;
-    padding: 2%;
+    padding: 1%;
     font-family: arial;
 }
 
@@ -59,4 +59,9 @@ body{
 
 .flex-item a:hover {
   color: #003366;
+}
+
+.cute-3-laptop p {
+  padding-top: 30%;
+  float: right;
 }
