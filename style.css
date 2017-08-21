@@ -1,0 +1,62 @@
+body{
+  padding: 20px;
+  background-color: #ebebe0;
+}
+
+.container {
+  color: #0099ff;
+}
+
+.search {
+  margin: 12%;
+  margin-bottom: 2%;
+}
+
+.container input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/sicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.flex-container {
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    width: 80;
+    padding-left: 3%;
+    padding-bottom: 10px;
+}
+
+
+.flex-item {
+    background-color: #ffffff;
+    width: 30%;
+    max-height: 120px;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 2%;
+    font-family: arial;
+}
+
+.flex-item img {
+  border-radius: 50%;
+  width: 90%;
+  height: auto;
+}
+
+.flex-item a  {
+  text-decoration: none;
+  color: #0099ff;
+}
+
+.flex-item a:hover {
+  color: #003366;
+}
